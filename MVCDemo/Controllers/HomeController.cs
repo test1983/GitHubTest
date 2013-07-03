@@ -15,7 +15,8 @@ namespace MVCDemo.Controllers
 			return View();
 		}
 
-		public ActionResult About()
+		[ActionName("About2")]
+		public ActionResult About1()
 		{
 			return View();
 		}
