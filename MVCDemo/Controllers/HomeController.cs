@@ -8,6 +8,7 @@ namespace MVCDemo.Controllers
 {
 	public class HomeController : Controller
 	{
+		[ActionName("Index")]
 		public ActionResult Index()
 		{
 			ViewBag.Message = "Welcome to ASP.NET MVC!";
